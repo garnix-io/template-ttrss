@@ -40,7 +40,7 @@ in
   services.tt-rss = {
     enable = true;
     virtualHost = host;
-    selfUrlPath = "http://${host}";
+    selfUrlPath = "https://${host}";
     forceArticlePurge = 5;
     singleUserMode = true;
   };
