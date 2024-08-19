@@ -4,7 +4,7 @@ let
   sshKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGbN8I8+VYqdhWf5KzuSGwGTUm5NUmwP/i2OCtspO3QT evie@janus";
 
   # TODO: change this based on your repo: server.<BRANCH>.<REPONAME>.<GITHUB ORG/USER>.garnix.me
-  host = "server.ad-test-garnix-us.template-ttrss.garnix-io.garnix.us";
+  host = "server.ad-test-garnix-us.template-ttrss.garnix-io.garnix.me";
 in
 {
   # This sets up networking and filesystems in a way that works with garnix
