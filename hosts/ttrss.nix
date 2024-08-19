@@ -40,12 +40,9 @@ in
   services.tt-rss = {
     enable = true;
     virtualHost = host;
-    selfUrlPath = "https://${host}";
+    selfUrlPath = "http://${host}";
     forceArticlePurge = 5;
     singleUserMode = true;
-    extraConfig = ''
-      putenv('_SKIP_SELF_URL_PATH_CHECKS=true');
-    '';
   };
 
   # We open these ports.
