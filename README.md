@@ -14,3 +14,6 @@ To get your own ttrss going:
   This will allow you to ssh into your deployed host.
 6) Push your changes! garnix will build and deploy the package, and make your
    server available in a `garnix.me` domain.
+
+ This [Tiny Tiny RSS](https://server.main.template-ttrss.garnix-io.garnix.me) gets deployed
+automatically with this repository.
